@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="rpgstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="greet">Greetings</h1>
+    <div class="container-att">
+        <div class="att">
+                <ul class="fa-chrt">
+                    <label for="name"><b>Name:</b></label>
+                    <li><input type="text" placeholder="Name" id="inputID"></li>
+                    <label for="class"><b>Class:</b></label>
+                    <div class="class">
+                        <p id="className">Choose your class</p>
+                        <button type="button" id="prevChar">Previous</button>
+                        <button type="button" id="nextChar">Next</button>
+                    </div>
+                </ul>
+                <button type="button" id="ready">Ready</button>
+        </div>
+        <div class="charPic">   
+            <canvas id="pic-cont" width="400px" height="600px">
+                Csicska kutya bongeszod van tesa.
+            </canvas>
+        </div>
+<script src="rpg.js"></script>
+</body>
+</html>

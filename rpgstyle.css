@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+.container-att{
+    display: flex;
+    background-color: rgb(143, 116, 80);
+    border-style: groove;
+    justify-content: center;
+}
+.att{
+    padding: 3vh;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    font-family: "press Start 2P";
+}
+.fa-chrt{
+    list-style: none;
+    padding: 3vh;
+    background-color: bisque;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.charPic{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 400px;
+}
+.pic-container{
+    position: relative;
+}
+#pic-cont{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+#className{
+    font-family: "press Start 2P";
+}
+#ready{
+    width: 250px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color:darksalmon;
+}
+#ready:hover{
+    background-color:coral;
+}
+button:hover{
+    cursor: pointer;
+}
+#pic-cont{
+    background-color: burlywood;
+}
+#prevChar, #nextChar{
+    width: 100px;
+    height: 25px;
+}
